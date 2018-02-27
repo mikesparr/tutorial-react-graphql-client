@@ -1,0 +1,41 @@
+{
+  "name": "tutorial-react-graphql-client",
+  "version": "1.0.0",
+  "description": "Simple GraphQL client example in React",
+  "main": "index.js",
+  "dependencies": {
+    "ajv": "^6.2.0",
+    "apollo-boost": "^0.1.1",
+    "apollo-link-ws": "^1.0.7",
+    "graphql": "^0.12.3",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "subscriptions-transport-ws": "^0.9.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikesparr/tutorial-react-graphql-client.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "React",
+    "subscription",
+    "query",
+    "mutation",
+    "example"
+  ],
+  "author": "Mike Sparr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikesparr/tutorial-react-graphql-client/issues"
+  },
+  "homepage": "https://github.com/mikesparr/tutorial-react-graphql-client#readme"
+}
